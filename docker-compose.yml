@@ -4,3 +4,5 @@ services:
     image: ghcr.io/possawat064/bookinfo-details:dev
     ports:
       - "8080:8080"
+    environment:
+      SERVICE_VERSION: v1
